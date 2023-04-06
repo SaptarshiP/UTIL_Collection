@@ -1,0 +1,13 @@
+package com.psja.check;
+
+import java.io.Serializable;
+
+public class SerializationCheck implements Serializable {
+	
+	public void check() {
+		
+		Employee emp = new Employee( "emp001", "PSJA", "Howrah Shibpur" );
+		
+	}
+
+}

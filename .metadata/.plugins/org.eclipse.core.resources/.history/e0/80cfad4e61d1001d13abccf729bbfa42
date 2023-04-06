@@ -1,0 +1,24 @@
+package com.psja.check;
+
+import java.util.Collection;
+import java.util.TreeSet;
+
+public class Invoker {
+
+	public void invoke() {
+		
+		Collection<Employee> empTreeSet = new TreeSet<>();
+		
+		Employee emp1 = new Employee( "PSJA1001", "S", 10000 );
+		Employee emp1 = new Employee( "PSJA1002", "D", 10000 );
+		Employee emp1 = new Employee( "PSJA1003", "F", 10000 );
+		Employee emp1 = new Employee( "PSJA1004", "A", 10000 );
+		Employee emp1 = new Employee( "PSJA1005", "N", 10000 );
+		Employee emp1 = new Employee( "PSJA1006", "O", 10000 );
+		Employee emp1 = new Employee( "PSJA1007", "I", 10000 );
+		Employee emp1 = new Employee( "PSJA1008", "U", 10000 );
+		Employee emp1 = new Employee( "PSJA1009", "L", 10000 );
+		Employee emp1 = new Employee( "PSJA1010", "E", 10000 );
+	}
+	
+}

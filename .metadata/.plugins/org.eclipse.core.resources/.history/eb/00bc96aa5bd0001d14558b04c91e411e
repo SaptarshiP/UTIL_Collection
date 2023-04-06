@@ -1,0 +1,15 @@
+package com.psja;
+
+import static java.lang.System.out;
+import java.lang.Thread;
+
+public class TreeSet {
+
+	public static void main( String args[] ) {
+		out.println( "The Tree set output" );
+		
+		TreeSet treeSet = new TreeSet();
+		Thread th = new Thread( treeSet );
+	}
+	
+}

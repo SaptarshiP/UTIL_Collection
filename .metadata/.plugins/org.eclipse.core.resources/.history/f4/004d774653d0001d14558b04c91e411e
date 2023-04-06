@@ -1,0 +1,13 @@
+package com.psja.check;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class Invoker {
+
+	public void invoke() {
+		
+		NavigableSet<Integer> treeSet = new TreeSet<>();
+	}
+	
+}

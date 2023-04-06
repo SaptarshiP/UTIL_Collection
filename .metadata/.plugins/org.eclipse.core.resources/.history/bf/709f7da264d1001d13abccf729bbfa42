@@ -1,0 +1,15 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+import com.psja.check.Invoker;
+
+public class Comparator {
+
+	public static void main( String args[] ) {
+		
+		out.println( "In the comparator check" );
+		Invoker invoker = new Invoker();
+	}
+	
+}

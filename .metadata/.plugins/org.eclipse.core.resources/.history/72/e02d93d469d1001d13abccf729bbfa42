@@ -1,0 +1,40 @@
+package com.psja.check;
+
+import java.util.List;
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.function.Consumer;
+
+
+public class Invoker {
+
+	public void invoke() {
+		
+		List<Employee> empList = new ArrayList<>();
+		
+		empList.add( new Employee( "PSJA1001", "S", 90000 ) );
+		empList.add( new Employee( "PSJA1002", "D", 80000 ) );
+		empList.add( new Employee( "PSJA1003", "F", 70000 ) );
+		empList.add( new Employee( "PSJA1004", "A", 60000 ) );
+		empList.add( new Employee( "PSJA1005", "N", 50000 ) );
+		empList.add( new Employee( "PSJA1006", "O", 40000 ) );
+		empList.add( new Employee( "PSJA1007", "I", 30000 ) );
+		empList.add( new Employee( "PSJA1008", "U", 20000 ) );
+		empList.add( new Employee( "PSJA1009", "L", 10000 ) );
+		empList.add( new Employee( "PSJA1010", "E", 900 ) );
+		
+		Collections.sort( empList );
+		
+		Consumer<Employee> empConsumer = ( emp )-> {
+				System.out.println( emp.getEmpId() );
+				System.out.println( emp.getEmpName() );
+				System.out.println( emp.getEmpSalary() );
+				System.out.println( "*************************" );
+		};
+		empList.forEach( empConsumer );
+		
+		
+		
+	}
+	
+}

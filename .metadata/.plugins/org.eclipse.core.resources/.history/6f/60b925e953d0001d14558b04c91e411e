@@ -1,0 +1,22 @@
+package com.psja.check;
+
+import java.io.IOException;
+
+import java.util.Set;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Invoker {
+
+	public void invoke()throws IOException {
+		
+		NavigableSet<Character> treeSet = new TreeSet<>();
+		Set<Character> hashSet = new HashSet<>();
+		HashSet<Character> linkedHashSet = new LinkedHashSet<>();
+		
+		
+	}
+	
+}

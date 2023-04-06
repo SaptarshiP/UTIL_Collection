@@ -1,0 +1,18 @@
+package com.psja.check;
+
+import java.util.Set;
+import java.util.NavigableSet;
+import java.util.TreeSet;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Invoker {
+
+	public void invoke() {
+		
+		NavigableSet<Character> treeSet = new TreeSet<>();
+		Set<Character> hashSet = new HashSet<>();
+		HashSet<Character> linkedHashSet = new LinkedHashSet<>();
+	}
+	
+}

@@ -1,0 +1,15 @@
+package com.psja.check;
+
+import java.io.InputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+
+public class CheckDesirializationCheck {
+
+	public void check() {
+		
+		InputStream inputStream = new FileInputStream( "" );
+	}
+	
+}

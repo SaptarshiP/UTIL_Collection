@@ -1,0 +1,13 @@
+package com.psja.check;
+
+import java.io.FileInputStream;
+
+
+public class CheckDesirializationCheck {
+
+	public void check() {
+		
+		
+	}
+	
+}

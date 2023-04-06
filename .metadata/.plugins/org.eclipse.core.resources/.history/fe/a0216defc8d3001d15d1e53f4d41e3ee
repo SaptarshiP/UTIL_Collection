@@ -1,0 +1,23 @@
+package com.psja;
+
+import static java.lang.System.out;
+import java.lang.FunctionalInterface;
+
+import com.psja.check.CheckDeserializationCheck;
+
+
+@FunctionalInterface
+interface check{
+	public void ch( Employee emp );
+}
+
+public class ObjectDeSerializationCheck {
+
+	public static void main( String args[] ) {
+		
+		out.println( "In Deseralization Check" );
+		CheckDeserializationCheck checkDeserializationCheck = new CheckDeserializationCheck();
+		checkDeserializationCheck.check();
+	}
+	
+}

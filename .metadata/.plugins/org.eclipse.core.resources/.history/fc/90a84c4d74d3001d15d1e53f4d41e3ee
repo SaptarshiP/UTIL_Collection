@@ -1,0 +1,17 @@
+package com.psja.check;
+
+import java.io.Serializable;
+import java.io.ObjectOutputStream;
+import java.io.FileOutputStream;
+
+public class SerializationCheck implements Serializable {
+	
+	public void check() {
+		
+		Employee emp = new Employee( "emp001", "PSJA", "Howrah Shibpur" );
+		
+		FileOutputStream fout = new FileOutputStream( "f.txt" );
+		ObjectOutputStream objectOutputStream = new ObjectOutputStream();		
+	}
+
+}

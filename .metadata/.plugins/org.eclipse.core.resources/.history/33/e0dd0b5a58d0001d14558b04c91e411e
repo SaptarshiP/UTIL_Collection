@@ -1,0 +1,13 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+public class TreeSet {
+
+	public static void main( String args[] ) {
+		out.println( "The Tree set output" );
+		
+		TreeSet treeSet = new TreeSet();
+	}
+	
+}

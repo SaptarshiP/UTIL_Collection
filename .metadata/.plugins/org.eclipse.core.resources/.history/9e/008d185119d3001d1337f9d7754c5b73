@@ -1,0 +1,38 @@
+package com.psja.check;
+
+/*
+ *This class is created, so that it's object can be stored
+ *in the file in a serialized format and it can be de-serialized when need
+ *@author Saptarshi Pramanick
+ */
+public class Employee {
+
+	private String empId;
+	private String empName;
+	private String empAddress;
+	
+	Employee( String empId, String empName, String empAddress ){
+		this.empId = empId;
+		this.empName = empName;
+		this.empAddress = empAddress;
+	}
+	
+	/*
+	 *This method is used to retrieve data
+	 *@return String format of the employee Id 
+	 */
+	public String getEmpId() {
+		return this.getEmpId();
+	}
+	public String getEmpName() {
+		return this.empName;
+	}
+	public String getEmpAddress() {
+		return this.empAddress;
+	}
+	
+	@Override
+	public String toString() {
+		return this.empId+" "+this.empName+" "+this.empAddress;
+	}
+}

@@ -1,0 +1,13 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+public class Comparator {
+
+	public static void main( String args[] ) {
+		
+		out.println( "In the comparator check" );
+		Employee emp = new Employee( "PSJA01", "A", 2000 );
+	}
+	
+}

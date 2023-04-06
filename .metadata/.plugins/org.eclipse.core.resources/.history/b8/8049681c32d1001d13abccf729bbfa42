@@ -1,0 +1,21 @@
+package com.psja.check;
+
+import java.lang.Comparable;
+
+public class Employee implements Comparable<Employee> {
+
+	private String empId;
+	private String empName;
+	private Integer salary;
+	
+	Employee( String empId, String empName, Integer salary ){
+		this.empId = empId;
+		this.empName = empName;
+		this.salary = salary;
+	}
+	
+	@Override
+	public void compareTo() {
+		
+	}
+}

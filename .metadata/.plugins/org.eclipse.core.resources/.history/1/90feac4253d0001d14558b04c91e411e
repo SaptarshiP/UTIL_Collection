@@ -1,0 +1,11 @@
+package com.psja.check;
+
+import java.util.Collection;
+
+public class Invoker {
+
+	public void invoke() {
+		
+	}
+	
+}

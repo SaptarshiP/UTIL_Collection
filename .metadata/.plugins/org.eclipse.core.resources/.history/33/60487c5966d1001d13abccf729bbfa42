@@ -1,0 +1,7 @@
+package com.psja.check;
+
+import java.util.Comparator;
+
+public class ComparatorDefination implements Comparator<Employee> {
+
+}

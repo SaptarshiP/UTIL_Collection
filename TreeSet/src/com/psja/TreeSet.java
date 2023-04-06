@@ -1,0 +1,19 @@
+package com.psja;
+
+import static java.lang.System.out;
+import java.lang.Thread;
+
+import com.psja.check.Invoker;
+
+public class TreeSet {
+
+	public static void main( String args[] ) {
+		out.println( "The Tree set output" );
+		
+		Invoker invoker = new Invoker();
+		Thread th = new Thread( invoker );
+		
+		th.start();
+	}
+	
+}

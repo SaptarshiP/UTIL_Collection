@@ -1,0 +1,16 @@
+package com.psja.check;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable {
+
+	private String empId;
+	private String empName;
+	private String empAddress;
+	
+	Employee( String empId, String empName, String ampAddress ){
+		this.empId = empId;
+		this.empName = empName;
+		this.empAddress = empAddress;
+	}
+}

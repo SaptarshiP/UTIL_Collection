@@ -1,0 +1,20 @@
+package com.psja.check;
+
+import java.io.InputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.IOException;
+
+public class CheckDeserializationCheck {
+
+	public void check() {
+		
+		try {
+			InputStream fileInputStream = new FileInputStream( "C:/Users/sapprama/Desktop/f.txt" );
+			ObjectInputStream ois = new ObjectInputStream( fileInputStream );
+		} catch( IOException exp ) {
+			
+		}
+	}
+	
+}

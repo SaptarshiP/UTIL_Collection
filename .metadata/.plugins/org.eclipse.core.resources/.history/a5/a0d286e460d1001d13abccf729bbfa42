@@ -1,0 +1,13 @@
+package com.psja.check;
+
+import java.util.Collection;
+import java.util.TreeSet;
+
+public class Invoker {
+
+	public void invoke() {
+		
+		Collection<Employee> empCollection = 
+	}
+	
+}

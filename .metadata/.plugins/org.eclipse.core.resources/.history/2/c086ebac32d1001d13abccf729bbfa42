@@ -1,0 +1,31 @@
+package com.psja.check;
+
+import java.lang.Comparable;
+
+
+/*
+ * The employee class representation
+ * It holds the information of employee
+ * @author Saptarshi Pramanick\
+ */
+public class Employee implements Comparable<Employee> {
+
+	private String empId;
+	private String empName;
+	private Integer salary;
+	
+	Employee( String empId, String empName, Integer salary ){
+		this.empId = empId;
+		this.empName = empName;
+		this.salary = salary;
+	}
+	
+	/*
+	 * This class is the overriden class from
+	 * Comparable interface, it is internlly called from sort method
+	 * */
+	@Override
+	public int compareTo( Employee emp ) {
+		return 0;
+	}
+}

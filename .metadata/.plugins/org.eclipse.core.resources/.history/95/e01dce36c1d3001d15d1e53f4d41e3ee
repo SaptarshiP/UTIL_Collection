@@ -1,0 +1,7 @@
+package com.psja;
+
+import java.lang.Runnable;
+
+public class MyThread implements Runnable {
+
+}

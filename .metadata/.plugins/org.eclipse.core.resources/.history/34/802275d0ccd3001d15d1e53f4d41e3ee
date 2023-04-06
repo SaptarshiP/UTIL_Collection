@@ -1,0 +1,32 @@
+package com.psja.check;
+
+import java.io.InputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.lang.FunctionalInterface;
+
+@FunctionalInterface
+interface check{
+	
+}
+
+public class CheckDesirializationCheck {
+
+	public void check() {
+		
+		try {
+			InputStream inputStream = new FileInputStream( "" );
+			ObjectInputStream objectInputStream = new ObjectInputStream( inputStream );
+			objectInputStream.readObject();
+		} catch( FileNotFoundException exp ) {
+			System.out.println( exp.getMessage() );
+		} catch( IOException exp ) {
+			System.out.println( exp.getMessage() );
+		} catch( ClassNotFoundException exp ) {
+			System.out.println( exp.getMessage() );
+		}
+	}
+	
+}

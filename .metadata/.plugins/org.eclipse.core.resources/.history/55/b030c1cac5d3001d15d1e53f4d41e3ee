@@ -1,0 +1,12 @@
+package com.psja.check;
+
+import java.io.ObjectInputStream;
+
+public class CheckDeserializationCheck {
+
+	public void check() {
+		
+		ObjectInputStream ois = new ObjectInputStream( "C:/Users/sapprama/Desktop/f.txt" );
+	}
+	
+}

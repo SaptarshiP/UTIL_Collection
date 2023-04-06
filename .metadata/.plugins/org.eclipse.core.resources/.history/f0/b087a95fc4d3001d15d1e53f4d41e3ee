@@ -1,0 +1,7 @@
+package com.psja.check;
+
+import java.io.Serializable;
+
+public class Employee implements Serializable {
+
+}

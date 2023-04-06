@@ -1,0 +1,7 @@
+package com.psja.check;
+
+import java.io.Serialization;
+
+public class Employee implements Serialization {
+
+}

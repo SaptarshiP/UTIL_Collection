@@ -1,0 +1,10 @@
+package com.psja.check;
+
+public class CheckDesirializationCheck {
+
+	public void check() {
+		
+		
+	}
+	
+}

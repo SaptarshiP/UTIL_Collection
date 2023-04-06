@@ -1,0 +1,52 @@
+package com.psja.check;
+
+import java.lang.Comparable;
+
+
+/*
+ * The employee class representation
+ * It holds the information of employee
+ * @author Saptarshi Pramanick
+ */
+public class Employee implements Comparable<Employee> {
+
+	private String empId;
+	private String empName;
+	private Integer empSalary;
+	
+	Employee( String empId, String empName, Integer salary ){
+		this.empId = empId;
+		this.empName = empName;
+		this.empSalary = salary;
+	}
+	/*
+	 * This function is used to give the empId of the current object
+	 * @return a string value of the employee Id
+	 */
+	public String getEmpId() {
+		return this.empId;
+	}
+	/*
+	 * This function is used to give the empName of the current object
+	 * @return a strig value holding the name of the current employee
+	 */
+	public String getEmpName() {
+		return this.empName;
+	}
+	public Integer getEmpSalary() {
+		return this.empSalary;
+	}
+	/*
+	 * This class is the overriden class from
+	 * Comparable interface, it is internlly called from sort method
+	 * @param a employee object
+	 * @return Integer value 0 if equals, 1 if a>b, 0 if a<b 
+	 */
+	@Override
+	public int compareTo( Employee emp ) {
+		
+		Integer value1 = Integer.valueOf( this.empName.charAt(0) );
+		//Integer value2 = emp
+		return 0;
+	}
+}

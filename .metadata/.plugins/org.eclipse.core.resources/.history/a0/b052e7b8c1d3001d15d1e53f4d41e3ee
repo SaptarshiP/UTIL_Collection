@@ -1,0 +1,14 @@
+package com.psja;
+
+import static java.lang.System.out;
+
+public class ObjectSerializationCheck {
+
+	public static void main( String args[] ) {
+		out.println( "The serialization check" );
+		
+		MyThread myThread = new MyThread();
+		myThread.start();
+	}
+	
+}

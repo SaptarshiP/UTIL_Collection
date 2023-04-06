@@ -1,0 +1,15 @@
+package com.psja.check;
+
+public class Employee {
+
+	private String empId;
+	private String empName;
+	private Integer salary;
+	
+	Employee( String empId, String empName, Integer salary ){
+		this.empId = empId;
+		this.empName = empName;
+		this.salary = salary;
+	}
+	
+}
